@@ -36,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D67928BB2C5963AD006B04B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6CD3A0A2C592266004BB90A /* DataModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D6CD39DA2C591D8B004BB90A = {
 			isa = PBXGroup;
 			children = (
@@ -55,11 +63,11 @@
 		D6CD39E52C591D8B004BB90A /* ImagesCarouselAndListSwiftUi */ = {
 			isa = PBXGroup;
 			children = (
+				D6CD39E62C591D8B004BB90A /* ImagesCarouselAndListSwiftUiApp.swift */,
 				D6CD3A152C59248C004BB90A /* Preview Content */,
 				D6CD3A0E2C592311004BB90A /* Views */,
-				D6CD39E62C591D8B004BB90A /* ImagesCarouselAndListSwiftUiApp.swift */,
 				D6CD39EA2C591D8D004BB90A /* Assets.xcassets */,
-				D6CD3A0A2C592266004BB90A /* DataModels.swift */,
+				D67928BB2C5963AD006B04B2 /* Model */,
 				D6CD3A162C592B33004BB90A /* data.json */,
 			);
 			path = ImagesCarouselAndListSwiftUi;

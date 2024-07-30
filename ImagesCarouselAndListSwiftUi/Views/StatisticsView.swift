@@ -1,3 +1,4 @@
+
 import SwiftUI
 
 struct StatisticsView: View {
@@ -32,4 +33,3 @@ struct StatisticsView: View {
         .padding()
     }
 }
-

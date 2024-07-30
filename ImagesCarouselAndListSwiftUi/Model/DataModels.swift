@@ -1,5 +1,7 @@
+
 import SwiftUI
 import Combine
+
 
 struct CarouselImage: Identifiable {
     let id = UUID()
@@ -13,9 +15,13 @@ struct ListItem: Identifiable, Codable {
     let imageName: String
 }
 
+
 class DataProvider: ObservableObject {
     @Published var carouselImages: [CarouselImage] = []
     @Published var listItems: [ListItem] = []
+    @Published var selectedCarouselIndex: Int = 0 // Added this property
+
+    private var allListItems: [[ListItem]] = []
 
     init() {
         loadCarouselImages()
@@ -24,8 +30,7 @@ class DataProvider: ObservableObject {
 
     func loadCarouselImages() {
         let imageNames = [
-            "photo1", "photo2", "photo3", "photo4", "photo5",
-            "photo6", "photo7", "photo8", "photo9", "photo10"
+            "photo1", "photo2", "photo3", "photo4", "photo5"
         ]
         self.carouselImages = imageNames.map { CarouselImage(imageName: $0) }
     }
@@ -38,11 +43,17 @@ class DataProvider: ObservableObject {
 
         do {
             let data = try Data(contentsOf: url)
-            let items = try JSONDecoder().decode([ListItem].self, from: data)
-            self.listItems = items
+            let itemsArray = try JSONDecoder().decode([[ListItem]].self, from: data)
+            self.allListItems = itemsArray
+            self.listItems = itemsArray.first ?? []
         } catch {
             print("Failed to load JSON file: \(error.localizedDescription)")
         }
     }
-}
 
+    func updateListItems() {
+        if selectedCarouselIndex < allListItems.count {
+            self.listItems = allListItems[selectedCarouselIndex]
+        }
+    }
+}

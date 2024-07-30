@@ -1,3 +1,4 @@
+
 import SwiftUI
 import Combine
 
@@ -23,15 +24,19 @@ struct MainView: View {
                 VStack(spacing: 0) {
                     // Carousel
                     GeometryReader { geo in
-                        TabView {
-                            ForEach(dataProvider.carouselImages) { imageItem in
-                                Image(imageItem.imageName)
+                        TabView(selection: $dataProvider.selectedCarouselIndex) {
+                            ForEach(dataProvider.carouselImages.indices, id: \.self) { index in
+                                Image(dataProvider.carouselImages[index].imageName)
                                     .resizable()
                                     .aspectRatio(contentMode: .fill)
+                                    .tag(index)
                             }
                         }
                         .frame(height: 200)
                         .tabViewStyle(PageTabViewStyle())
+                        .onChange(of: dataProvider.selectedCarouselIndex) { _ in
+                            dataProvider.updateListItems()
+                        }
                         .onChange(of: geo.frame(in: .global).minY) { value in
                             if value <= -200 {
                                 searchBarPinned = true

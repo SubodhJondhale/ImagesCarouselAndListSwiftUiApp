@@ -1,12 +1,63 @@
 [
-    { "id": 1, "title": "Audi", "subtitle": "Luxury vehicle with superior comfort.", "imageName": "photo1" },
-    { "id": 2, "title": "Merc", "subtitle": "Elegant design with cutting-edge technology.", "imageName": "photo2" },
-    { "id": 3, "title": "Lambo", "subtitle": "Exotic sports car with impressive speed.", "imageName": "photo3" },
-    { "id": 4, "title": "BMW", "subtitle": "Sporty and dynamic driving experience.", "imageName": "photo4" },
-    { "id": 5, "title": "RollsRoys", "subtitle": "Ultimate luxury and refinement in every detail.", "imageName": "photo5" },
-    { "id": 6, "title": "Bugati", "subtitle": "High-performance supercar with unparalleled acceleration.", "imageName": "photo6" },
-    { "id": 7, "title": "RangeRover", "subtitle": "Versatile SUV with advanced off-road capabilities.", "imageName": "photo7" },
-    { "id": 8, "title": "Kia", "subtitle": "Affordable and reliable with modern features.", "imageName": "photo8" },
-    { "id": 9, "title": "Tesla", "subtitle": "Innovative electric vehicle with impressive range.", "imageName": "photo9" },
-    { "id": 10, "title": "Ford", "subtitle": "American classic with powerful performance and style.", "imageName": "photo10" }
+    [
+        { "id": 1, "title": "Audi", "subtitle": "Luxury vehicle with superior comfort.", "imageName": "photo1" },
+        { "id": 2, "title": "Merc", "subtitle": "Elegant design with cutting-edge technology.", "imageName": "photo2" },
+        { "id": 3, "title": "Lambo", "subtitle": "Exotic sports car with impressive speed.", "imageName": "photo3" },
+        { "id": 4, "title": "BMW", "subtitle": "Sporty and dynamic driving experience.", "imageName": "photo4" },
+        { "id": 5, "title": "RollsRoys", "subtitle": "Ultimate luxury and refinement in every detail.", "imageName": "photo5" },
+        { "id": 6, "title": "Bugati", "subtitle": "High-performance supercar with unparalleled acceleration.", "imageName": "photo6" },
+        { "id": 7, "title": "RangeRover", "subtitle": "Versatile SUV with advanced off-road capabilities.", "imageName": "photo7" },
+        { "id": 8, "title": "Kia", "subtitle": "Affordable and reliable with modern features.", "imageName": "photo8" },
+        { "id": 9, "title": "Tesla", "subtitle": "Innovative electric vehicle with impressive range.", "imageName": "photo9" },
+        { "id": 10, "title": "Ford", "subtitle": "American classic with powerful performance and style.", "imageName": "photo10" }
+    ],
+    [
+        { "id": 11, "title": "Audi A6", "subtitle": "Luxury sedan with advanced features.", "imageName": "photo2" },
+        { "id": 12, "title": "Mercedes-Benz", "subtitle": "Elegance meets performance.", "imageName": "photo5" },
+        { "id": 13, "title": "Lamborghini Huracan", "subtitle": "Exotic sports car with unparalleled speed.", "imageName": "photo1" },
+        { "id": 14, "title": "BMW X5", "subtitle": "SUV with a blend of comfort and power.", "imageName": "photo8" },
+        { "id": 15, "title": "Rolls-Royce Phantom", "subtitle": "Ultimate luxury and refinement.", "imageName": "photo4" },
+        { "id": 16, "title": "Bugatti Chiron", "subtitle": "Hypercar with extraordinary performance.", "imageName": "photo10" },
+        { "id": 17, "title": "Range Rover Vogue", "subtitle": "Sophisticated SUV for adventure and comfort.", "imageName": "photo7" },
+        { "id": 18, "title": "Kia Stinger", "subtitle": "Sporty sedan with impressive handling.", "imageName": "photo3" },
+        { "id": 19, "title": "Tesla Model S", "subtitle": "Electric car with cutting-edge technology.", "imageName": "photo6" },
+        { "id": 20, "title": "Ford Mustang", "subtitle": "Iconic muscle car with powerful performance.", "imageName": "photo9" }
+    ],
+    [
+        { "id": 21, "title": "Porsche 911", "subtitle": "Legendary sports car with timeless design.", "imageName": "photo6" },
+        { "id": 22, "title": "Jaguar F-Type", "subtitle": "Elegant coupe with exhilarating performance.", "imageName": "photo3" },
+        { "id": 23, "title": "Ferrari 488", "subtitle": "High-performance supercar with Italian flair.", "imageName": "photo10" },
+        { "id": 24, "title": "Maserati Levante", "subtitle": "Luxury SUV with sporty dynamics.", "imageName": "photo1" },
+        { "id": 25, "title": "McLaren 720S", "subtitle": "Supercar with unmatched acceleration and handling.", "imageName": "photo7" },
+        { "id": 26, "title": "Aston Martin DB11", "subtitle": "Refined grand tourer with stunning design.", "imageName": "photo5" },
+        { "id": 27, "title": "Bentley Continental GT", "subtitle": "Ultimate luxury with powerful performance.", "imageName": "photo2" },
+        { "id": 28, "title": "Lexus LC 500", "subtitle": "Luxury coupe with a striking presence.", "imageName": "photo9" },
+        { "id": 29, "title": "Land Rover Defender", "subtitle": "Durable SUV built for off-road adventures.", "imageName": "photo4" },
+        { "id": 30, "title": "Chevrolet Corvette", "subtitle": "Iconic American sports car with advanced technology.", "imageName": "photo8" }
+    ],
+    [
+        { "id": 31, "title": "Alfa Romeo Giulia", "subtitle": "Italian sports sedan with dynamic handling.", "imageName": "photo10" },
+        { "id": 32, "title": "Buick Enclave", "subtitle": "Spacious SUV with a refined interior.", "imageName": "photo7" },
+        { "id": 33, "title": "Cadillac Escalade", "subtitle": "Luxury full-size SUV with advanced features.", "imageName": "photo2" },
+        { "id": 34, "title": "Chrysler 300", "subtitle": "Bold sedan with a powerful engine.", "imageName": "photo8" },
+        { "id": 35, "title": "Dodge Charger", "subtitle": "Muscle car with aggressive styling.", "imageName": "photo1" },
+        { "id": 36, "title": "Fiat 500", "subtitle": "Compact car with a charming design.", "imageName": "photo4" },
+        { "id": 37, "title": "Genesis G80", "subtitle": "Luxury sedan with advanced safety features.", "imageName": "photo9" },
+        { "id": 38, "title": "Infiniti QX60", "subtitle": "Family-friendly SUV with a comfortable ride.", "imageName": "photo6" },
+        { "id": 39, "title": "Jaguar I-PACE", "subtitle": "Electric SUV with impressive range.", "imageName": "photo5" },
+        { "id": 40, "title": "Kia Telluride", "subtitle": "Versatile SUV with spacious seating.", "imageName": "photo3" }
+    ],
+    [
+        { "id": 41, "title": "Nissan Altima", "subtitle": "Comfortable sedan with advanced safety tech.", "imageName": "photo3" },
+        { "id": 42, "title": "Honda CR-V", "subtitle": "Reliable compact SUV with great fuel efficiency.", "imageName": "photo10" },
+        { "id": 43, "title": "Toyota Camry", "subtitle": "Mid-size sedan with a smooth ride and modern features.", "imageName": "photo8" },
+        { "id": 44, "title": "Ford Explorer", "subtitle": "Versatile SUV with ample space and power.", "imageName": "photo1" },
+        { "id": 45, "title": "Hyundai Sonata", "subtitle": "Stylish sedan with a high-tech interior.", "imageName": "photo7" },
+        { "id": 46, "title": "Subaru Outback", "subtitle": "Rugged wagon with all-wheel drive capabilities.", "imageName": "photo5" },
+        { "id": 47, "title": "Mazda MX-5 Miata", "subtitle": "Fun-to-drive roadster with agile handling.", "imageName": "photo2" },
+        { "id": 48, "title": "Chevrolet Tahoe", "subtitle": "Full-size SUV with robust towing capabilities.", "imageName": "photo4" },
+        { "id": 49, "title": "Volkswagen Golf", "subtitle": "Compact hatchback with a sporty feel.", "imageName": "photo9" },
+        { "id": 50, "title": "Jeep Grand Cherokee", "subtitle": "Luxury SUV with off-road prowess.", "imageName": "photo6" }
+    ]
 ]
+
