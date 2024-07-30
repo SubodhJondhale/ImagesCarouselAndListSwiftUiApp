@@ -15,6 +15,12 @@ struct ListItem: Identifiable, Codable {
     let imageName: String
 }
 
+struct CharacterCount: Identifiable {
+    let id = UUID()
+    let character: Character
+    let count: Int
+}
+
 
 class DataProvider: ObservableObject {
     @Published var carouselImages: [CarouselImage] = []

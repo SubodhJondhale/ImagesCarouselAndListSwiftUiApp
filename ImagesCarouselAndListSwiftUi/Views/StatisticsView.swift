@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 struct StatisticsView: View {
@@ -21,11 +20,14 @@ struct StatisticsView: View {
                 }
 
             // Get the top 3 characters
-            let topCharacters = characterCounts.sorted { $0.value > $1.value }.prefix(3)
+            let topCharacters = characterCounts
+                .sorted { $0.value > $1.value }
+                .prefix(3)
+                .map { CharacterCount(character: $0.key, count: $0.value) }
 
             // Display the top characters
-            ForEach(topCharacters, id: \.key) { character, count in
-                Text("\(character) = \(count)")
+            ForEach(topCharacters) { charCount in
+                Text("\(charCount.character) = \(charCount.count)")
             }
 
             Spacer()
@@ -33,3 +35,4 @@ struct StatisticsView: View {
         .padding()
     }
 }
+
