@@ -19,7 +19,7 @@ struct StatisticsView: View {
                     counts[character, default: 0] += 1
                 }
 
-            // Get the top 3 characters
+            // Convert the character counts to an array of CharacterCount structs
             let topCharacters = characterCounts
                 .sorted { $0.value > $1.value }
                 .prefix(3)
