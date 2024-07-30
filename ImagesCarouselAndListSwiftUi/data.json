@@ -1,0 +1,12 @@
+[
+    { "id": 1, "title": "Audi", "subtitle": "Luxury vehicle with superior comfort.", "imageName": "photo1" },
+    { "id": 2, "title": "Merc", "subtitle": "Elegant design with cutting-edge technology.", "imageName": "photo2" },
+    { "id": 3, "title": "Lambo", "subtitle": "Exotic sports car with impressive speed.", "imageName": "photo3" },
+    { "id": 4, "title": "BMW", "subtitle": "Sporty and dynamic driving experience.", "imageName": "photo4" },
+    { "id": 5, "title": "RollsRoys", "subtitle": "Ultimate luxury and refinement in every detail.", "imageName": "photo5" },
+    { "id": 6, "title": "Bugati", "subtitle": "High-performance supercar with unparalleled acceleration.", "imageName": "photo6" },
+    { "id": 7, "title": "RangeRover", "subtitle": "Versatile SUV with advanced off-road capabilities.", "imageName": "photo7" },
+    { "id": 8, "title": "Kia", "subtitle": "Affordable and reliable with modern features.", "imageName": "photo8" },
+    { "id": 9, "title": "Tesla", "subtitle": "Innovative electric vehicle with impressive range.", "imageName": "photo9" },
+    { "id": 10, "title": "Ford", "subtitle": "American classic with powerful performance and style.", "imageName": "photo10" }
+]
